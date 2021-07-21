@@ -1,0 +1,47 @@
+/*Responsive design*/
+
+@media screen and (max-width: 768px){
+  .menu li a{
+    padding:  25px 35px 15px 35px;
+  }
+  .logo{
+    margin-top: 0;
+  }
+  main{
+    margin-top: 20px;
+    float: none;
+    width: 100%;
+  }
+  aside{
+    margin-top: 20px;
+    float: none;
+    width: 100%;
+  }
+  .search{
+    width: 100%;
+  }
+  .subscribe-input{
+    width: 80%;
+    border-right: 1px solid black;
+  }
+  button{
+    width: 12%;
+    height:  46px;
+    background: silver;
+  }
+}
+@media screen and (max-width: 620px){
+  .logo{
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .menu{
+    float: none;
+    width: 100%;
+  }
+  .menu li a{
+    padding:  10px 35px 10px 35px;
+
+  }
+}

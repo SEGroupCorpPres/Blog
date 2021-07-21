@@ -1,0 +1,197 @@
+html{
+  min-height: 100%;
+}
+body{
+  color: darkslategray;
+  text-align: left;
+  font-size: 1em;
+  min-height: 100%;
+  font-family: "Segoe UI Emoji",sans-serif;
+}
+.logo{
+max-width: 100%;
+}
+a,a:visited{
+  color: darkcyan;
+  text-decoration: underline;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+a:focus, a:active{
+  color: blue;
+  text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+}
+.clr{
+  clear: both;
+}
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+header{
+  background: black;
+  overflow: hidden;
+}
+.center-block-main{
+  margin: 0 auto;
+  max-width: 990px;
+}
+.logo{
+  float: left;
+  margin-top: 25px;
+}
+.menu{
+  float: right;
+}
+.menu li{
+  float: left;
+  font-weight: 600;
+}
+.menu li a{
+  text-decoration: none;
+  padding: 50px 35px;
+  display: block;
+  border-bottom: 3px solid;
+  border-color: black;
+}
+.menu li a:hover{
+  border-bottom: 3px solid;
+  border-color: red;
+}
+.content{
+  border-left: 1px;
+  border-left-style: solid;
+  border-left-color: black;
+  border-right: 1px;
+  border-right-style: solid;
+  border-right-color: black;
+}
+main{
+  margin-top: 65px;
+  float: left;
+  width: 62.5%;
+}
+article{
+  margin-bottom: 65px;
+}
+article header{
+  background: none;
+}
+article img{
+  margin-bottom: 10px;
+}
+article h2{
+  font-size: 1.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0 0 40px 20px;
+}
+article p{
+  margin: 0 0 20px 20px;
+  line-height: 1.3;
+}
+a.button{
+  padding: 10px 20px;
+  text-decoration: none;
+  border:2px;
+  border-color: #222222;
+  border-style: solid;
+  border-radius: 25px;
+  background: silver;
+  color: deeppink;
+  display: inline-block;
+}
+a:hover.button{
+  background: black;
+}
+aside{
+  margin-top: 65px;
+  float: right;
+  width: 28.3%;
+}
+.widget{
+  margin-bottom: 30px;
+}
+.widget h2{
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: silver;
+  border-left: 2px;
+  border-left-style: solid;
+  border-left-color: red;
+  margin-bottom: 20px;
+}
+.search{
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  width: 85.5%;
+  color: black;
+  font-size: 0.75em;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-right: none;
+}
+.widget>nav{
+  margin-left: 20px;
+  line-height: 1.3;
+}
+.widget>nav a{
+  text-decoration: none;
+}
+.subscribe-input{
+  float: left;
+  padding: 15px 20px;
+  width: 85.5%;
+  color: black;
+  font-size: 0.75em;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-right: none;
+}
+button{
+  float: left;
+  margin-bottom: 30px;
+}
+.pager{
+  padding: 30px;
+  text-transform: uppercase;
+  font-size: 1.125em;
+  font-weight: bold;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+}
+.pager a{
+  color: black;
+  text-decoration: none;
+}
+.previous{
+  float: left;
+}
+.next{
+  float: right;
+}
+footer{
+  color: red;
+  font-size: 0.8125em;
+  border-top: 2px;
+  border-top-style: solid;
+  border-top-color: red;
+  background: black;
+  text-align: center;
+  padding: 50px 0;
+}
+footer img{
+  margin-bottom: 20px;
+}
